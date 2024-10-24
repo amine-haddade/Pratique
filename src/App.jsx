@@ -1,7 +1,6 @@
-
 // import { BrowserRouter ,  Route,Routes } from 'react-router-dom';
-import './App.css'
-import Pratique from './Pratique';
+import "./App.css";
+import Pratique from "./Pratique";
 // import Navbar from './components/Navbar';
 // // import { WakApp } from './components/Wack-app'
 // import {UserProvider} from './_Provider/index'
@@ -9,10 +8,9 @@ import Pratique from './Pratique';
 // import DataClien from './components/formClient/dataClien';
 
 function App() {
-
   return (
     <div>
-      <Pratique/>
+      <Pratique />
     </div>
     // <BrowserRouter>
     //   <UserProvider>
@@ -23,9 +21,7 @@ function App() {
     //     </Routes>
     //   </UserProvider>
     // </BrowserRouter>
-    
-
-    )
+  );
 }
 
-export default App
+export default App;
