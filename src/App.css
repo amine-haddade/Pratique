@@ -1,0 +1,210 @@
+/* body{
+  width: 100% !important;
+  height: 100vh;
+
+}
+.container{
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 5px;
+  margin: 0px auto;
+}
+.container img{
+  width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.body{
+    width: 100%;
+  /* background: linear-gradient(to right, #e6e9fe, #efe8ff); */
+    /* height: 100vh;
+    background: hsla(206, 74%, 59%, 1);
+
+    background: linear-gradient(315deg, hsla(206, 74%, 59%, 1) 0%, hsla(170, 75%, 56%, 1) 68%, hsla(168, 77%, 57%, 1) 98%);
+    
+    background: -moz-linear-gradient(315deg, hsla(206, 74%, 59%, 1) 0%, hsla(170, 75%, 56%, 1) 68%, hsla(168, 77%, 57%, 1) 98%);
+    
+    background: -webkit-linear-gradient(315deg, hsla(206, 74%, 59%, 1) 0%, hsla(170, 75%, 56%, 1) 68%, hsla(168, 77%, 57%, 1) 98%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4AA1E4", endColorstr="#3CE3C6", GradientType=1 );
+   display: flex;
+   justify-content: center;
+   align-items: center; */
+/* } */
+/* form h1{
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: #6a21a9;
+  text-transform: capitalize;
+}
+form{
+  width: 70%;
+  max-width: 500px;
+
+  min-width: 350px;
+  border-radius: 8px;
+  padding: 20px;
+  background: linear-gradient(to right, #e6e9fe, #efe8ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+form .row{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-transform: capitalize;
+
+}
+.icon{
+  margin-top:2px ;
+  padding-right: 10px;
+}
+form label{
+  font-size: 22px;
+  padding-bottom: 5px;
+  text-transform: capitalize;
+  color: #6a21a9;
+  display: flex;
+  align-items: center;
+}
+form input{
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: black;
+  border: 1px solid #c3c1c1e7;
+  outline: none;
+  background-color: white !important;
+  border-radius: 8px;
+}
+input:focus{
+  outline: 2px solid #6a21a9;
+  background-color: white !important;
+}
+form button{
+  width: 80%;
+  color: white;
+  background-color: #6a21a9;
+  border: none;
+  border-radius: 8px;
+  text-transform: capitalize;
+  margin-top: 40px !important;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+::placeholder{
+  color: rgb(140, 140, 140);
+  text-transform: capitalize;
+}
+p{
+  color: rgb(65, 63, 63);
+  font-size: 18px;
+
+}
+a{
+  color: #6a21a9;
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+header {
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+.dataUser p{
+  color:white;
+  margin: 10px auto;
+}
+.main-content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.validate-data{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+.validate-data input{
+  padding: 10px 12px;
+  outline: none;
+  border:  1px solid white;
+  font-size: 20px;
+  border-radius: 8px;
+  color: black;
+
+} */
+
+ */
+
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  justify-self: center;
+  border-radius: 4px;
+  font-size: 16px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #0056b3;
+}
